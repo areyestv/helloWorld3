@@ -26,10 +26,11 @@
 		<webResources>
 		    <resource>
 			<!-- this is relative to the pom.xml directory -->
-			<directory>./web/WEB-INF/</directory>
+			<directory>src/main/webapp/WEB-INF/</directory>
 			<!-- the list has a default value of ** -->
 			<includes>
-			    <include>./web/WEB-INF/*.xml</include>
+			    <include>src/main/webapp/WEB-INF/*.xml</include>
+			    <include>*.xml</include>
 			</includes>
 
 		    </resource>
