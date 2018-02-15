@@ -112,6 +112,44 @@
     </distributionManagement>
   <dependencies>
 		<dependency>
+		    <groupId>wsdependency</groupId>
+		    <artifactId>activation.jar</artifactId>
+		    <scope>provided</scope>
+		    <systemPath>${basedir}/WEB-INF/lib/activation.jar</systemPath>
+		</dependency>|	
+		<dependency>
+		    <groupId>wsdependency</groupId>
+		    <artifactId>webservices-api.jar</artifactId>
+		    <scope>provided</scope>
+		    <systemPath>${basedir}/WEB-INF/lib/webservices-api.jar</systemPath>
+		</dependency>|	
+		<dependency>
+		    <groupId>wsdependency</groupId>
+		    <artifactId>webservices-extra.jar</artifactId>
+		    <scope>provided</scope>
+		    <systemPath>${basedir}/WEB-INF/lib/webservices-extra.jar</systemPath>
+		</dependency>|	
+
+		<dependency>
+		    <groupId>wsdependency</groupId>
+		    <artifactId>webservices-extra-api.jar</artifactId>
+		    <scope>provided</scope>
+		    <systemPath>${basedir}/WEB-INF/lib/webservices-extra-api.jar</systemPath>
+		</dependency>|	
+		<dependency>
+		    <groupId>wsdependency</groupId>
+		    <artifactId>webservices-rt.jar</artifactId>
+		    <scope>provided</scope>
+		    <systemPath>${basedir}/WEB-INF/lib/webservices-rt.jar</systemPath>
+		</dependency>|	
+		<dependency>
+		    <groupId>wsdependency</groupId>
+		    <artifactId>webservices-tools.jar</artifactId>
+		    <scope>provided</scope>
+		    <systemPath>${basedir}/WEB-INF/lib/webservices-tools.jar</systemPath>
+		</dependency>|	
+
+		<dependency>
 		    <groupId>javax.servlet</groupId>
 		    <artifactId>javax.servlet-api</artifactId>
 		    <version>3.1.0</version>
