@@ -115,21 +115,21 @@
 		    <groupId>wsdependency</groupId>
 		    <artifactId>activation.jar</artifactId>
 		    <version>3.1.0</version>
-		    <scope>provided</scope>
+		    <scope>system</scope>
 		    <systemPath>${basedir}/WEB-INF/lib/activation.jar</systemPath>
 		</dependency>
 		<dependency>
 		    <groupId>wsdependency</groupId>
 		    <artifactId>webservices-api.jar</artifactId>
 		    <version>3.1.0</version>
-		    <scope>provided</scope>
+		    <scope>system</scope>
 		    <systemPath>${basedir}/WEB-INF/lib/webservices-api.jar</systemPath>
 		</dependency>
 		<dependency>
 		    <groupId>wsdependency</groupId>
 		    <artifactId>webservices-extra.jar</artifactId>
 		    <version>3.1.0</version>
-		    <scope>provided</scope>
+		    <scope>system</scope>
 		    <systemPath>${basedir}/WEB-INF/lib/webservices-extra.jar</systemPath>
 		</dependency>
 
@@ -137,21 +137,21 @@
 		    <groupId>wsdependency</groupId>
 		    <artifactId>webservices-extra-api.jar</artifactId>
 		    <version>3.1.0</version>
-		    <scope>provided</scope>
+		    <scope>system</scope>
 		    <systemPath>${basedir}/WEB-INF/lib/webservices-extra-api.jar</systemPath>
 		</dependency>
 		<dependency>
 		    <groupId>wsdependency</groupId>
 		    <artifactId>webservices-rt.jar</artifactId>
 		    <version>3.1.0</version>
-		    <scope>provided</scope>
+		    <scope>system</scope>
 		    <systemPath>${basedir}/WEB-INF/lib/webservices-rt.jar</systemPath>
 		</dependency>
 		<dependency>
 		    <groupId>wsdependency</groupId>
 		    <artifactId>webservices-tools.jar</artifactId>
 		    <version>3.1.0</version>
-		    <scope>provided</scope>
+		    <scope>system</scope>
 		    <systemPath>${basedir}/WEB-INF/lib/webservices-tools.jar</systemPath>
 		</dependency>
 
